@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<company>Premier Consumer</company>
+	<domain>premierconsumer.org</domain>
+	<tollfree>1-800-296-4950</tollfree>
+	<localphone>305-827-9080</localphone>
+	<fax>305-827-3778</fax>
+	<address>5201 Blue Lagoon Drive, Suite 800</address>
+	<address2>Miami, FL 33126-7050</address2>
+	<formDisclaimer>Valid only in The United States</formDisclaimer>
+	<formUrl>/webapps/forms/</formUrl>
+</settings>

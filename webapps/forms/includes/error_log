@@ -1,0 +1,14 @@
+[11-Aug-2012 16:28:22] PHP Fatal error:  Uncaught exception 'Exception' with message 'error setting certificate verify locations:
+  CAfile: /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/Certificate/cacert.pem
+  CApath: none
+' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:352
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/emailtest.php(23): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 352
+[11-Aug-2012 16:30:08] PHP Fatal error:  Uncaught exception 'Exception' with message 'Sender signature has not been confirmed.' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/emailtest.php(23): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[13-Aug-2012 20:20:06] PHP Fatal error:  Call to undefined function  checkemail() in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/emailtest.php on line 7

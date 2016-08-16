@@ -1,0 +1,78 @@
+#KJEAllContent {
+    font: normal 10pt arial, sans-serif;
+    background: #ffffff;
+    color: #000000;
+}
+
+.KJEFontHeading {
+    color:#000000;
+}
+
+.KJEError {
+    color:#FF0000;
+}
+
+#KJESplash{ background-image: none; }
+
+.KJETitle {
+    font-size: 14pt;
+    text-align: center;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: -8px -8px;
+    background-size:85px 85px;
+}
+
+.KJECalculatorTable {
+}
+
+.KJEInputContainer:hover {
+    background-color: #ffffff;
+}
+
+.KJEDropper:hover {
+    background-color: #ffffff;
+}
+
+.KJEGraphDropper:hover {
+    background-color: #eeeeff;
+}
+
+.KJEInputContainer .help:hover {
+    color: #333333;
+}
+
+.KJEReportTitle {
+    font-size:14pt;
+    font-weight:bold;
+    margin: 0;
+    padding: 0;
+}
+
+.KJEReportTitleBlock {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.KJEWidthConstraint {
+    max-width: 900px;
+    text-align:left;
+    margin: auto;
+    background: #ffffff;
+    padding:15px;
+}
+
+.KJEWrapper {
+    background: #cccccc;
+    padding: 0;
+    margin:0;
+}
+
+body {
+ margin: 0;
+}

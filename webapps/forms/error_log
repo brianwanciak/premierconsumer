@@ -1,0 +1,629 @@
+[10-Aug-2012 11:40:54] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 6
+[10-Aug-2012 11:41:05] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 6
+[10-Aug-2012 11:41:09] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 6
+[10-Aug-2012 11:41:25] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 6
+[10-Aug-2012 11:53:44] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 33
+[10-Aug-2012 12:21:57] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/short-contact.php on line 6
+[12-Aug-2012 11:41:01] PHP Fatal error:  Class 'Mail_Postmark' not found in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 67
+[12-Aug-2012 11:41:17] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php(75): Mail_Postmark->addTo(NULL)
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[12-Aug-2012 11:42:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/functions.php:11) in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 80
+[12-Aug-2012 11:48:28] PHP Parse error:  syntax error, unexpected '=' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 75
+[12-Aug-2012 11:54:30] PHP Parse error:  syntax error, unexpected '=' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 76
+[12-Aug-2012 11:54:32] PHP Parse error:  syntax error, unexpected '=' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php on line 76
+[12-Aug-2012 11:54:57] PHP Fatal error:  Uncaught exception 'BadMethodCallException' with message 'From address is not set' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:613
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(314): Mail_Postmark->_validateData()
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/main-contact.php(80): Mail_Postmark->send()
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 613
+[13-Aug-2012 11:48:49] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/survey.php(84): Mail_Postmark->addTo(NULL)
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[13-Aug-2012 11:50:57] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/short-contact.php(71): Mail_Postmark->addTo(NULL)
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[13-Aug-2012 15:41:34] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', NULL, NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/survey.php(84): Mail_Postmark->addTo(NULL)
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[13-Aug-2012 17:21:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide either email TextBody or HtmlBody or both.' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(79): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[13-Aug-2012 17:24:06] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide either email TextBody or HtmlBody or both.' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(79): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[13-Aug-2012 17:32:01] PHP Fatal error:  Uncaught exception 'Exception' with message 'Provide either email TextBody or HtmlBody or both.' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(79): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[13-Aug-2012 17:37:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/functions.php on line 6
+[13-Aug-2012 19:15:31] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "test" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', 'test', NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php(66): Mail_Postmark->addTo('test')
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[13-Aug-2012 19:16:04] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "test" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', 'test', NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php(66): Mail_Postmark->addTo('test')
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[13-Aug-2012 19:16:56] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "test" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', 'test', NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php(66): Mail_Postmark->addTo('test')
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[21-Aug-2012 12:01:27] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: flatsdweller88@sbcglobal.net.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/contact.php(71): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[05-Sep-2012 21:36:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Sep-2012 22:03:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Sep-2012 22:03:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:26:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:27:05] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:27:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:27:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:27:48] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Sep-2012 18:35:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Sep-2012 20:08:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Sep-2012 20:08:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Sep-2012 20:08:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 00:55:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 00:55:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 00:56:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 00:56:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 00:57:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 14:47:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 23:22:05] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 23:22:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 23:24:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 23:24:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Sep-2012 23:29:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Sep-2012 11:55:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Sep-2012 12:51:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:09:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:10:04] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:10:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:10:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:10:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Sep-2012 15:14:24] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 13:32:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 13:32:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 13:32:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 21:38:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 21:38:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Sep-2012 21:38:49] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Sep-2012 08:09:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Sep-2012 23:18:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:41:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:42:25] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:43:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:44:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:50:27] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Sep-2012 18:50:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Oct-2012 11:43:29] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Oct-2012 11:43:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Oct-2012 11:44:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Oct-2012 11:47:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Oct-2012 15:33:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Oct-2012 15:33:16] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Oct-2012 15:33:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Oct-2012 15:33:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Oct-2012 15:33:56] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:45:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:45:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:46:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:46:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:46:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 11:48:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 12:01:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 12:01:04] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 12:07:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Oct-2012 12:07:45] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[05-Oct-2012 06:38:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[05-Oct-2012 06:38:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 12:48:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 12:48:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 16:34:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 16:34:30] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 19:48:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 19:48:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Oct-2012 19:48:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Oct-2012 20:53:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 13:28:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:05:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:05:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:21:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:22:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:25:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:26:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:27:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Oct-2012 17:29:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Oct-2012 19:15:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Oct-2012 19:15:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Oct-2012 19:15:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Oct-2012 19:16:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 18:29:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 20:56:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 20:57:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 20:57:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 20:57:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Oct-2012 20:58:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Oct-2012 18:40:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 10:10:51] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[17-Oct-2012 15:09:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 15:09:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 15:11:16] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 15:12:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 19:27:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 19:27:45] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Oct-2012 19:28:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Oct-2012 09:00:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Oct-2012 09:01:04] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Oct-2012 20:44:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Oct-2012 20:44:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:31:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:31:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:33:20] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:44:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:45:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Oct-2012 22:48:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Oct-2012 11:29:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Oct-2012 23:28:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 17:00:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 17:00:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 17:01:46] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 19:22:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 19:22:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Oct-2012 19:24:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[24-Oct-2012 20:21:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Oct-2012 21:19:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Oct-2012 21:19:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Oct-2012 21:24:05] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 02:22:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:51:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:51:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:52:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:52:29] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:52:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:53:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:54:25] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 08:54:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Oct-2012 20:25:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Oct-2012 07:26:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Oct-2012 23:46:27] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Oct-2012 23:46:27] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Nov-2012 19:13:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Nov-2012 19:14:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Nov-2012 19:03:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Nov-2012 07:23:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Nov-2012 10:53:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Nov-2012 10:53:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Nov-2012 17:27:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Nov-2012 17:27:56] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 14:21:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 14:21:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 14:22:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 14:22:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 14:24:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:29:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:30:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:30:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:31:55] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:32:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Nov-2012 23:33:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Nov-2012 02:43:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Nov-2012 02:43:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Nov-2012 02:43:30] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Nov-2012 18:56:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Nov-2012 20:32:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Nov-2012 20:17:49] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Nov-2012 20:17:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Nov-2012 16:46:29] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: firorodriguez@79yahoo.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[23-Nov-2012 16:47:32] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: firorodriguez@79yahoo.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[24-Nov-2012 21:25:49] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[24-Nov-2012 21:26:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[24-Nov-2012 21:26:20] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[24-Nov-2012 21:26:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[24-Nov-2012 21:28:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Nov-2012 21:48:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Nov-2012 21:48:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Nov-2012 22:00:49] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Nov-2012 22:02:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Nov-2012 21:03:44] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: Rosalvabecerrra@gmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[02-Dec-2012 22:15:55] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Dec-2012 22:20:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Dec-2012 22:20:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Dec-2012 20:22:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Dec-2012 20:33:06] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Dec-2012 14:54:34] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: ahumada-juan@ymail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[08-Dec-2012 23:57:54] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: damaris2141@yahoo.es.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[10-Dec-2012 08:49:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 08:49:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 08:50:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:39:45] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:39:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:40:13] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:43:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:43:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 09:44:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Dec-2012 18:59:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 11:49:24] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 11:49:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 22:25:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 22:25:25] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 22:26:00] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Dec-2012 22:27:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Dec-2012 10:31:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Dec-2012 10:32:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[14-Dec-2012 11:06:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(87): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[14-Dec-2012 11:07:11] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(87): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[14-Dec-2012 11:13:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(87): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[14-Dec-2012 11:15:18] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[14-Dec-2012 11:15:47] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(77): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[16-Dec-2012 13:41:48] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Dec-2012 13:42:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Dec-2012 11:21:30] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Dec-2012 11:46:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Dec-2012 11:59:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Dec-2012 15:01:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Dec-2012 15:02:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Dec-2012 15:02:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 12:34:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 12:34:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 14:28:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 17:02:13] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 17:02:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 17:15:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 17:16:18] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:40:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:40:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:40:48] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:41:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:41:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:42:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 19:42:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 23:06:15] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Dec-2012 23:06:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Dec-2012 16:04:58] PHP Fatal error:  Uncaught exception 'Exception' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(87): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[28-Dec-2012 16:19:19] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[28-Dec-2012 16:19:55] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[28-Dec-2012 16:20:09] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[28-Dec-2012 16:20:41] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: motita2044@hotmail.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-free-analysis.php(93): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[28-Dec-2012 19:52:13] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Dec-2012 19:59:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Jan-2013 17:07:46] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[03-Jan-2013 17:13:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:46:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:46:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:46:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:46:55] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:47:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:48:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:50:13] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:50:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:50:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:51:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 09:51:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 18:39:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 18:39:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Jan-2013 18:39:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[08-Jan-2013 15:27:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 14:19:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 15:46:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:44:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:45:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:46:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:46:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:47:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[10-Jan-2013 16:47:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[15-Jan-2013 19:43:18] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "rudgulitz@yahoo.com.x" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', 'rudgulitz@yahoo...', NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(73): Mail_Postmark->addTo('rudgulitz@yahoo...')
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[15-Jan-2013 19:43:28] PHP Fatal error:  Uncaught exception 'InvalidArgumentException' with message 'Address "rudgulitz@yahoo.com.x" is invalid' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:432
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php(207): Mail_Postmark->_addRecipient('to', 'rudgulitz@yahoo...', NULL)
+#1 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(73): Mail_Postmark->addTo('rudgulitz@yahoo...')
+#2 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 432
+[16-Jan-2013 13:08:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Jan-2013 13:09:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Jan-2013 16:23:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Jan-2013 16:23:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Jan-2013 16:24:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Jan-2013 20:11:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Jan-2013 09:40:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Jan-2013 09:51:20] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Jan-2013 10:21:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Jan-2013 10:21:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Jan-2013 13:38:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Jan-2013 13:39:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Jan-2013 10:54:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Jan-2013 10:54:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Jan-2013 10:54:45] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Jan-2013 10:54:55] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Jan-2013 10:55:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Jan-2013 10:22:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Jan-2013 12:56:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Jan-2013 12:56:07] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Jan-2013 17:15:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Jan-2013 17:16:06] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Jan-2013 16:42:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Jan-2013 16:43:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Jan-2013 18:08:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[23-Jan-2013 18:08:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Jan-2013 07:02:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Jan-2013 07:38:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Jan-2013 07:38:20] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Jan-2013 18:12:12] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Jan-2013 19:38:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Jan-2013 19:38:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Jan-2013 19:39:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Jan-2013 23:21:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 11:04:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 11:04:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 13:14:25] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 13:14:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 19:53:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Jan-2013 20:07:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Jan-2013 13:18:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Jan-2013 13:18:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Jan-2013 17:55:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Jan-2013 09:16:27] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[29-Jan-2013 09:16:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 09:06:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 09:08:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 09:11:05] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:14:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:15:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:15:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:16:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:17:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[30-Jan-2013 19:18:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Jan-2013 15:22:48] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Feb-2013 14:47:51] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Feb-2013 20:42:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Feb-2013 20:42:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Feb-2013 19:59:13] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Feb-2013 19:59:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Feb-2013 19:59:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Feb-2013 23:57:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Feb-2013 18:33:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Feb-2013 15:01:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:01:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:02:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:29:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:29:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:29:56] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:30:19] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 12:30:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 16:59:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 16:59:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 17:00:04] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 17:00:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 17:00:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Feb-2013 17:00:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 07:11:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 07:12:16] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 07:12:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:48:33] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:48:44] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:49:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:49:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:49:44] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[21-Feb-2013 16:50:29] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 08:23:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 08:23:56] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 08:24:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 08:26:35] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 08:28:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Feb-2013 09:05:20] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 08:59:30] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 15:07:16] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 15:07:50] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 22:14:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 22:14:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[26-Feb-2013 22:15:31] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Feb-2013 09:08:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Feb-2013 09:09:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Feb-2013 09:09:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Feb-2013 09:10:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[27-Feb-2013 20:00:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[28-Feb-2013 21:11:28] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Mar-2013 11:40:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[01-Mar-2013 16:04:15] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Mar-2013 18:41:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Mar-2013 19:47:54] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Mar-2013 19:50:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[04-Mar-2013 04:00:37] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 12:06:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 12:07:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 15:16:48] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 15:16:58] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 15:17:08] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 15:17:47] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[06-Mar-2013 15:18:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 09:33:59] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 09:46:56] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 18:07:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 18:09:06] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 18:26:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 18:27:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[07-Mar-2013 18:57:44] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[11-Mar-2013 16:33:57] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: litoguerra@hotmail.es.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-main-contact.php(87): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[12-Mar-2013 22:46:10] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:46:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:47:09] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:47:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:48:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:51:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 22:52:43] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:16:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:17:32] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:18:14] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:19:15] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:35:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:35:45] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:40:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[12-Mar-2013 23:46:42] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Mar-2013 08:35:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Mar-2013 09:32:25] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[13-Mar-2013 09:36:40] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Mar-2013 19:53:24] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Mar-2013 19:54:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[16-Mar-2013 19:54:04] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[17-Mar-2013 20:19:00] PHP Fatal error:  Uncaught exception 'Exception' with message 'You tried to send to a recipient that has been marked as inactive.
+Found inactive addresses: gala@yahoo.com.
+Inactive recipients are ones that have generated a hard bounce or a spam complaint. ' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php:358
+Stack trace:
+#0 /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-short-contact.php(78): Mail_Postmark->send()
+#1 {main}
+  thrown in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/includes/postmark.php on line 358
+[18-Mar-2013 10:54:57] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Mar-2013 16:47:52] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Mar-2013 16:48:02] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[18-Mar-2013 17:30:01] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 05:17:17] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 05:17:34] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 05:18:21] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 08:57:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 19:34:36] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 19:34:53] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[19-Mar-2013 19:35:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Mar-2013 19:46:29] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[20-Mar-2013 19:50:39] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[22-Mar-2013 15:12:38] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[25-Mar-2013 09:25:22] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Mar-2013 01:14:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Mar-2013 17:37:03] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Mar-2013 17:37:23] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Mar-2013 17:37:41] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[31-Mar-2013 17:38:11] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17
+[02-Apr-2013 08:13:26] PHP Parse error:  syntax error, unexpected '{' in /home/bwanciak/public_html/subdomains/premierconsumer/apps/forms/es-contact.php on line 17

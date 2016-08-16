@@ -1,0 +1,26 @@
+/******** NOTES
+CSS for the print transcript portion so that it is uniform from theme to theme
+==
+*/
+* { margin: 0; }
+html, body { margin: 0px; color: #727272; font-family: Arial; font-size: 12px; }
+
+a:link {color: #757575; }
+a:active {color: #757575; }
+a:visited {color: #757575; }
+a:hover {color: #757575; }
+
+.co, .cv, .ca, .cl, .cn, .cc{ padding: 5px; }
+.co{ color: #1A8B0A; }
+.cv{ color: #2F2F2F; }
+.ca{ background: url( glass_grey.png ) repeat-x #F0F0F2; color: #505769; border-bottom: 1px solid #D6D7E2; margin-bottom: 5px; }
+.cl{ background: url( glass_yellow.png ) repeat-x #FBF7B4; color: #806732; margin-bottom: 5px; }
+.cn{ background: url( glass_green.png ) repeat-x #EBF7DD; color: #284307; margin-bottom: 5px; }
+.ctitle{ font-size: 14px; font-weight: bold; }
+.ct{ font-weight: normal; font-size: 10px; } /* timestamp */
+
+.info_box{ background: #FBF7B4; border: 1px solid #FFE221; padding: 5px; color: #806732; }
+
+#chat_body{ background: #FFFFFF; color: #215661; border: 0px; }
+
+#chat_body, .info_box{ -moz-border-radius: 5px; border-radius: 5px; }

@@ -1,0 +1,7 @@
+
+<ifmodule mod_expires.c>
+<Filesmatch "\.(php|html|xml)$">
+    ExpiresActive on
+    ExpiresDefault "access"
+</Filesmatch>
+</ifmodule>

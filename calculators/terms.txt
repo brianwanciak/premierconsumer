@@ -1,0 +1,49 @@
+TERMS AND CONDITIONS OF THE USE LICENSE FOR Financial Calculators FROM KJE Computer Solutions, LLC
+
+KJE Computer Solutions, LLC hereby grants to the customer ("Customer"), of the Financial Calculators from Dinkytown.net to which this document is part of a non-transferable and non-exclusive license to use the Software ("Software") under the following terms and conditions. 
+
+OWNERSHIP 
+
+a) The software (which term as used herein shall include the set of machine readable material on magnetic media, the user documentation and any other related material delivered to the Customer by or on behalf of KJE Computer Solutions, LLC including any source code), as well as the related copyrights and intellectual property rights, are the exclusive property of KJE Computer Solutions, LLC and/or its suppliers. The Customer acquires no title, right or interest in the Software other than the license rights granted herein. 
+
+b) The Customer shall not remove from the Software any trademark, tradename, copyright notice or other notice, and shall be responsible for their conservation on the copies received hereunder and for their reproduction on any backup copy of the Software or on any portion of the same merged into other programs. 
+
+c) Any source code included with the software is copyrighted by KJE Computer Solutions, LLC and should NOT be considered public domain. 
+
+LICENSE 
+
+a) Under the license granted to the Customer hereunder, the Customer has the right to use the software on a single "Customer Internet Site" (which term as used herein shall be defined as an internet site operated and maintained by the Customer which creates an internet presence for either the Customer or one of its clients. At a minimum each unique internet domain or sub-domain is considered a different "Customer Internet Site". In addition each unique client internet site or business internet site or other branded internet site created either dynamically or statically by the Customer within an internet domain or subdomain is considered a unique "Customer Internet Site".). The Customer may also merge the Software, or part thereof, into another program for its use on said single Customer Internet Site. (Any portion of the Software merged into another program will continue to be subject to the terms and conditions hereof). The Customer shall not make any other use of the Software without the prior written permission of KJE Computer Solutions, LLC. 
+
+b) The Customer may copy, in whole or in part, the Software in machine readable form on another magnetic medium, only in those cases in which this should prove necessary for back-up and recovery in case of break-down, provided however that such copies shall be used solely on said single Customer Internet Site. 
+
+c) The Customer shall not further duplicate or distribute the Software, in whole or in part, in any form or format whatsoever without the prior written permission of KJE Computer Solutions, LLC. The Customer shall not sell, loan, transfer or license the Software or otherwise assign any rights under this Agreement to any third party without the prior written permission of KJE Computer Solutions, LLC. If the Customer wishes to produce a product for retailing or other purposes using the Software supplied by KJE Computer Solutions, LLC, a licensing agreement will be required and may be negotiated with KJE Computer Solutions, LLC to authorize the development and/or sale of such a product. 
+
+LIMITATION OF LIABILITY 
+
+IN NO EVENT WILL KJE Computer Solutions, LLC OR ITS SUPPLIERS BE LIABLE FOR INDIRECT CONSEQUENTIAL, INCIDENTAL OR SPECIAL DAMAGES EVEN IF KJE Computer Solutions, LLC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND THE MAXIMUM LIABILITY OF KJE Computer Solutions, LLC SHALL BE LIMITED TO REFUND TO THE CUSTOMER THE PRICE PAID BY THE CUSTOMER FOR THE SOFTWARE. 
+
+LIMITED WARRANTY 
+
+a) This Software is provided "as is", without warranty of any kind, either expressed or implied, including but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the Software is with the Customer. Should the Software prove defective, the Customer (and not KJE Computer Solutions, LLC or its suppliers, distributors or dealers) assume the entire cost of all necessary servicing, repairs or correction. 
+
+b) Some states do not allow the exclusion of implied warranties, so the above exclusion may not apply to you. Any portion of this agreement that maybe void in no way voids or negates any other portion of this agreement. This warranty gives you specific legal rights, and you may also have other rights which vary from state to state. 
+
+c) KJE Computer Solutions, LLC does not warrant that the functions contained in the Software will meet your requirements or that the operation of the Software will be uninterrupted or error free. 
+
+TRANSFER OF THE LICENSE 
+
+The Software and/or any license granted hereunder to the Customer may not be assigned, sublicensed or otherwise transferred by the Customer to any third party without the prior written consent of KJE Computer Solutions, LLC. KJE Computer Solutions, LLC reserves the right to assign this agreement to another entity if such entity assumes all or substantially all of KJE Computer Solutions, LLC assets. 
+
+TERMINATION OF THE LICENSE 
+
+a) The license granted hereunder may be revoked and terminated forthwith by KJE Computer Solutions, LLC' written notice to the Customer if any of the following events occur: - in case of breach by the Customer of any provisions hereof; or in case of non-payment by the Customer in due time if any sum due from the Customer in consideration of delivery and license of the Software. Upon termination of the license granted hereunder, KJE Computer Solutions, LLC reserves the right to take any legal action necessary to recover any damages incurred by KJE Computer Solutions, LLC. 
+
+b) Upon termination of the license granted hereunder the Customer shall refrain from any further use of the Software, and KJE Computer Solutions, LLC may require either the destruction of any copy of the Software, in any form, in the possession of the Customer or the return of the same to KJE Computer Solutions, LLC. 
+
+
+
+©1998-2009 KJE Computer Solutions, LLC
+Financial Calculators from www.Dinkytown.net
+(612) 331-2291 
+1730 New Brighton Blvd. PMB #111
+Minneapolis, MN 55413  

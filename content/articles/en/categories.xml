@@ -1,0 +1,26 @@
+<categories>
+  <category>
+    <en>Budget and Goals</en>
+    <es>Presupuesto y Objetivos</es>
+    <label>budget-and-goals</label>
+    <published>1</published>
+  </category>
+  <category>
+    <en>Credit Management</en>
+    <es>Manejo de Crédito</es>
+    <label>credit-management</label>
+    <published>1</published>
+  </category>
+  <category>
+    <en>Life Management</en>
+    <es>Dirección de Vida</es>
+    <label>life-management</label>
+    <published>1</published>
+  </category>
+  <category>
+    <en>Technology</en>
+    <es>Tecnología</es>
+    <label>technology</label>
+    <published>1</published>
+  </category>
+</categories>

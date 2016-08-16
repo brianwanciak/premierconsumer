@@ -1,0 +1,16 @@
+<categories>
+  <category>
+    <en>Miscellaneous</en>
+    <es>Videos</es>
+    <label>miscellaneous</label>
+    <published>1</published>
+	<id>1</id>
+  </category>
+  <category>
+    <en>Univision Seminars</en>
+    <es>Seminarios de Univisión</es>
+    <label>univision-seminars</label>
+    <published>1</published>
+	<id>2</id>
+  </category>
+</categories>

@@ -1,0 +1,27 @@
+#chat_body::-webkit-scrollbar { display: none; }
+
+.chat_switchboard_cell, .chat_switchboard_cell_focus, .chat_switchboard_cell_bl_red, .chat_switchboard_cell_bl_green{ padding: 8px !important; margin-left: 10px !important; width: 80% !important; margin-bottom: 25px !important; -moz-border-radius: 5px !important; border-radius: 5px !important; }
+
+.info_mapp_error{ background: #F67975; border: 1px solid #DD6F6B; padding: 10px; color: #FFFFFF; }
+.info_mapp_good{ background: #63D467; border: 1px solid #58BD5C; padding: 10px; color: #FFFFFF; }
+.info_mapp_neutral{ background: #FAFAFA; border: 1px solid #D6D6D6; padding: 5px; color: #6D6D71; }
+
+.li_mapp{ float: left; padding: 5px; margin-right: 10px; border: 1px solid #D6D6D6; background: #EFEFEF; }
+.menu_mapp_pref{ background: url( ../pics/bg_menu_pref.png ) repeat-x; background-position: bottom center; color: #FBFDFF; text-shadow: -1px -1px #4D5356; font-size: 14px; padding: 20px; padding-top: 15px; cursor: pointer; }
+
+#input_btn{ width: auto; height: auto; padding: auto; font-size: 12px; }
+#chat_switchboard{ background: transparent; background-position: bottom center; border-bottom: 1px solid transparent; }
+#chat_footer_traffic_counter_mapp{ color: #4F5355; }
+
+.info_mapp_error, .info_mapp_good, .info_mapp_neutral{ -moz-border-radius: 5px; border-radius: 5px; }
+
+#canned_wrapper{ padding: 2px; }
+
+input, textarea {
+	-webkit-user-select: auto !important;
+	-khtml-user-select: auto !important;
+	-moz-user-select: auto !important;
+	-ms-user-select: auto !important;
+	-o-user-select: auto !important;
+	user-select: auto !important;  
+}

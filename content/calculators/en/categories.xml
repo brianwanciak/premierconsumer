@@ -1,0 +1,44 @@
+<categories>
+  <category>
+    <en>Credit Cards and Debt Management</en>
+    <es>Tarjetas de crédito y Consolidación de deudas</es>
+    <label>credit-card-and-debt-management</label>
+	<id>1</id>
+    <published>1</published>
+  </category>
+  <category>
+    <en>Mortgage Calculators</en>
+    <es>Calculadoras de Hipotecas</es>
+    <label>mortgage-calculators</label>
+	<id>2</id>
+    <published>1</published>
+  </category>
+  <category>
+    <en>Auto Calculators</en>
+    <es>Calculadoras de Automóvil</es>
+    <label>auto-calculators</label>
+    <published>1</published>
+	<id>3</id>
+  </category>
+  <category>
+    <en>Savings Calculators</en>
+    <es>Calculadoras de Ahorros</es>
+    <label>savings-calculators</label>
+    <published>1</published>
+	<id>4</id>
+  </category>
+  <category>
+    <en>Personal Finance</en>
+    <es>Finanzas Personales</es>
+    <label>personal-finance</label>
+    <published>1</published>
+	<id>5</id>
+  </category>
+  <category>
+    <en>Retirement Savings and Planning</en>
+    <es>Ahorros de Retiro y Planeación</es>
+    <label>retirement-savings-and-planning</label>
+    <published>1</published>
+	<id>6</id>
+  </category>
+</categories>

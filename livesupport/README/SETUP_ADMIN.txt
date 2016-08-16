@@ -1,0 +1,12 @@
+=============================================================
+Setup Admin
+=============================================================
+
+To access the Setup Admin area, simply add "/setup" to your PHP Live! URL.
+
+For example, if you have installed the system at www.verypeachy.com/phplive, the Setup Admin login will always be www.verypeachy.com/phplive/setup
+
+For situations where you have forgotten the Setup Admin login or password, a direct MySQL database access is required to obtain/update those values.  Please refer to the following documentation for more information:
+
+http://www.phplivesupport.com/r.php?r=spass
+

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 480px) {
+
+#language_links{margin-top: .8em }
+#slogan .slogan-medium{display:inline-block; margin-top:1em}
+
+
+.hp-lower-hlite-img{display:block; float:left;}
+.hp-lower-hlite-img img{width:auto}
+.hp-lower-hlite-text{margin-left: 170px; max-width:100%}
+a.hp-lower-hlite-btn{float:left; font-size:13px}
+.hp-lower-hlite-text h3{margin-top:0}
+
+}
+
+
+@media only screen and (min-width: 675px) {
+#side_col_left{width: 60%}
+#side_col_right{width: 40%};
+
+
+
+}
+
+.article-image{
+	margin: 6px 15px 15px 0;
+	float: left;
+	border: 1px solid #ccc;
+	padding: 2px;
+}

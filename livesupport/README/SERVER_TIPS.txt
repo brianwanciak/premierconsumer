@@ -1,0 +1,10 @@
+=============================================================
+Improve server performance with custom logging conditions
+=============================================================
+
+The PHP Live! system contains an ajax/ directory that has several PHP files that are requested periodically by the operator console, visitor chat window and the PHP Live! HTML Code.  The periodic requests performs various tasks to update the operator status, chat status, visitor footprint status and more.  The requests are very fast and takes milliseconds to process with very minimal CPU usage.  But each request does get logged to the web server log files.
+
+Please refer to the following documentation for more information on optimizing your web server log files:
+
+http://www.phplivesupport.com/r.php?r=logging
+

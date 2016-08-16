@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations>
+	<site-tagline>
+		<en>The Road to Your Financial Freedom</en>
+		<es>El Camino a su Libertad Financiera</es>
+	</site-tagline>
+	<short-form-title>
+		<en>We Can Help</en>
+		<es>Podemos ayudarle</es>
+	</short-form-title>
+	<free-analysis>
+		<en>Free Analysis</en>
+		<es>Análisis Gratuito</es>
+	</free-analysis>
+	<get-started>
+		<en>Get Started!</en>
+		<es>YA!</es>
+	</get-started>
+	<tap-call>
+		<en>Tap to Call</en>
+		<es>Toque aquí para Llamarnos Gratis</es>
+	</tap-call>
+	<calculators>
+		<en>Calculators</en>
+		<es>Toque aquí para Llamarnos Gratis</es>
+	</calculators>
+	<privacy-policy>
+		<en>Privacy Policy</en>
+		<es>Políticas de Privacidad</es>
+	</privacy-policy>
+	<terms-conditions>
+		<en>Terms and Condition</en>
+		<es>Declaraciones y Condiciones de Uso</es>
+	</terms-conditions>
+	<articles>
+		<en>Articles</en>
+		<es>Toque aquí para Llamarnos Gratis</es>
+	</articles>
+	<resources>
+		<en>Resources</en>
+		<es>Toque aquí para Llamarnos Gratis</es>
+	</resources>
+	<nav-home>
+		<en>Home</en>
+		<es>Inicio</es>
+	</nav-home>
+	<nav-about-us>
+		<en>About Us</en>
+		<es>Quienes Somos</es>
+	</nav-about-us>
+	<nav-how-we-can-help>
+		<en>How We Can Help</en>
+		<es>Cómo Podemos Ayudarle</es>
+	</nav-how-we-can-help>
+	<nav-learning-center>
+		<en>Learning Center</en>
+		<es>Centro de Aprendizaje</es>
+	</nav-learning-center>
+	<nav-free-analysis>
+		<en>Free Analysis</en>
+		<es>Análisis Gratuito</es>
+	</nav-free-analysis>
+	<nav-contact-us>
+		<en>Contact Us</en>
+		<es>Contáctenos</es>
+	</nav-contact-us>
+	<nav-clients>
+		<en>Clients</en>
+		<es>Clientes</es>
+	</nav-clients>
+	<nav-message-directors>
+		<en>Message From the Directors</en>
+		<es>Mensaje de la Directiva</es>
+	</nav-message-directors>
+	<nav-employment>
+		<en>Employment Opportunities</en>
+		<es>Oportunidades de Empleo</es>
+	</nav-employment>
+	<nav-debt-management>
+		<en>Debt Management Program</en>
+		<es>Programa de Consolidación de Deudas</es>
+	</nav-debt-management>
+	<nav-free-seminars>
+		<en>Free Seminars</en>
+		<es>Nuestros Seminarios</es>
+	</nav-free-seminars>
+	<nav-articles>
+		<en>Educational Articles</en>
+		<es>Artículos Educativos</es>
+	</nav-articles>
+	<nav-calculators>
+		<en>Calculators</en>
+		<es>Calculadoras</es>
+	</nav-calculators>
+	<nav-videos>
+		<en>Videos</en>
+		<es>Videos de Educación Financiera </es>
+	</nav-videos>
+	<nav-resources>
+		<en>Outside Resources</en>
+		<es>Recursos Externos </es>
+	</nav-resources>
+	<nav-quizzes>
+		<en>Quizzes</en>
+		<es>Quizzes</es>
+	</nav-quizzes>
+	<nav-polls>
+		<en>Polls</en>
+		<es>Encuestas</es>
+	</nav-polls>
+	<nav-faq>
+		<en>Frequently Asked Questions</en>
+		<es>Preguntas más Frecuentas</es>
+	</nav-faq>
+	<nav-login>
+		<en>Client Log In</en>
+		<es>Mi Cuenta</es>
+	</nav-login>
+	<nav-payment>
+		<en>Make a Payment</en>
+		<es>Pagar por Internet</es>
+	</nav-payment>
+	<nav-paytext>
+		<en>Pay by Text</en>
+		<es>Pagar Por Texto</es>
+	</nav-paytext>
+	<nav-survey>
+		<en>Satisfaction Survey</en>
+		<es>Cuestionario de Satisfacción</es>
+	</nav-survey>
+	<form-full-name>
+		<en>Full Name</en>
+		<es>Nombre Completo</es>
+	</form-full-name>
+	<form-city>
+		<en>City</en>
+		<es>Ciudad</es>
+	</form-city>
+	<form-state>
+		<en>State</en>
+		<es>Estado</es>
+	</form-state>
+	<form-name>
+		<en>Name</en>
+		<es>Nombre</es>
+	</form-name>
+	<form-email>
+		<en>Email</en>
+		<es>Email</es>
+	</form-email>
+	<form-zip>
+		<en>Zip Code</en>
+		<es>Código Postal</es>
+	</form-zip>
+	<form-phone>
+		<en>Phone</en>
+		<es>Teléfono</es>
+	</form-phone>
+	<form-subject>
+		<en>Subject</en>
+		<es>Asunto</es>
+	</form-subject>
+	<form-address>
+		<en>Address</en>
+		<es>Dirección</es>
+	</form-address>
+	<form-message>
+		<en>Message</en>
+		<es>Mensaje</es>
+	</form-message>
+	<form-department>
+		<en>Department</en>
+		<es>Departamento</es>
+	</form-department>
+	<form-corporate-relations>
+		<en>Corporate Relations</en>
+		<es>Relaciones Corporativas</es>
+	</form-corporate-relations>
+	<form-member-services>
+		<en>Member Services</en>
+		<es>Servicio al Cliente</es>
+	</form-member-services>
+	<form-home-phone>
+		<en>Home Phone</en>
+		<es>Teléfono de la Casa</es>
+	</form-home-phone>
+	<form-work-phone>
+		<en>Work Phone</en>
+		<es>Teléfono del trabajo</es>
+	</form-work-phone>
+	<form-cell-phone>
+		<en>Cell Phone</en>
+		<es>Teléfono celular</es>
+	</form-cell-phone>
+	<form-toll-free-number>
+		<en>Toll Free Number</en>
+		<es>Número Gratuito</es>
+	</form-toll-free-number>
+	<form-local-number>
+		<en>Local Number</en>
+		<es>Número Gratuito</es>
+	</form-local-number>
+	<form-facsimile>
+		<en>Facsimile</en>
+		<es>Facsimile</es>
+	</form-facsimile>
+	<form-best-time>
+		<en>Best Time to Reach Me</en>
+		<es>Disponibilidad</es>
+	</form-best-time>
+	<form-best-place>
+		<en>Best Place to be Contacted</en>
+		<es>Mejor lugar para contactarle</es>
+	</form-best-place>
+	<form-morning>
+		<en>Morning</en>
+		<es>Mañana</es>
+	</form-morning>
+	<form-afternoon>
+		<en>Afternoon</en>
+		<es>Tarde</es>
+	</form-afternoon>
+	<form-evening>
+		<en>Evening</en>
+		<es>Noche</es>
+	</form-evening>
+	<form-tell-us-more>
+		<en>Please Tell Us More About Your Situation: </en>
+		<es>Por favor díganos un poco más sobre su situación</es>
+	</form-tell-us-more>
+	
+	<form-creditor-name>
+		<en>Creditor Name</en>
+		<es>Nombre de acreedor</es>
+	</form-creditor-name>
+	<form-interest-rate>
+		<en>Interest Rate</en>
+		<es>Tasa de Interés </es>
+	</form-interest-rate>
+	<form-monthly-payment>
+		<en>Monthly Payment</en>
+		<es>Pago Mensual </es>
+	</form-monthly-payment>
+	<form-account-number>
+		<en>Account Number</en>
+		<es>Número de cuenta </es>
+	</form-account-number>
+	<form-amount>
+		<en>Amount</en>
+		<es>Balance</es>
+	</form-amount>
+	<form-contact-us>
+		<en>Contact Us</en>
+		<es>Contáctenos</es>
+	</form-contact-us>
+	
+	<company-information>
+		<en>Company Information</en>
+		<es>Información de la compañía</es>
+	</company-information>
+	<web-addresses>
+		<en>Web Addresses</en>
+		<es>Dirección de Portal de Internet</es>
+	</web-addresses>
+</translations>

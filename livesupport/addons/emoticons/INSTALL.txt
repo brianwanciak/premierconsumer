@@ -1,0 +1,19 @@
+PHP Live! Emoticons Addon
+=======================================================
+(c) OSI Codes Inc.
+
+Installation:
+
+1. Verify that your PHP Live! system is v.4.4.92 or greater.  The PHP Live! version number is located on the login screen of your PHP Live! system.
+
+2. Download the Emoticons addon from the client area:
+
+http://www.phplivesupport.com/r.php?r=login
+
+3. Unzip the Emoticons addon file that contains the "emoticons" folder.
+
+4. Open an FTP connection to your web server and access the "phplive/" directory.
+
+5. Upload the entire "emoticons" folder to the "phplive/addons/" directory.  Once uploaded, there should now be a "phplive/addons/emoticons/" directory containing the Emoticons addon files.
+
+6. Access your PHP Live! setup area and click the top menu "Extras".  You should now see the "Emoticons" sub menu on the "Extras" page.

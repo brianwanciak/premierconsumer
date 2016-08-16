@@ -1,0 +1,139 @@
+=============================================================
+API/Util_Vars.php variables details and their default values
+=============================================================
+
+----- the autolinker JS file to use because some server configurations may have issues with the
+minimized version.  options are "min" or "src"
+$VARS_JS_AUTOLINK_FILE = "min" ;
+
+----- the directory to write files and to fetch new chat responses and temp storing of chat transcript before saving
+it to the database.  this can be set to a ramdisk location to increase performance
+$CONF["CHAT_IO_DIR"] = "$CONF[CONF_ROOT]/chat_sessions" ;
+
+----- directory where the automatic chat invite indicator file are created.  also the directory where "is typing"
+indicator files are created.  this can be set to a ramdisk location to increase performance
+$CONF["TYPE_IO_DIR"] = "$CONF[CONF_ROOT]/chat_initiate" ;
+
+----- (1,0) - display page processing time (1) in various footer areas
+$VAR_DEBUG_OUT = 0 ;
+
+----- (1,0) - patch process is sped up (1) or by slower interval.  some servers may complain of very fast DB upates
+or thottle situations.  as safe measure, 0 by default
+$FAST_PATCH = 0 ;
+
+----- (string) - value for the chat icon image "alt=" and "title=" value
+$VARS_ADA_TXT = "" ;
+
+----- (seconds) - every x seconds the visitor console pings the server to process chat accept/decline/routing status
+$VARS_JS_ROUTING = 3 ;
+
+----- (seconds) - every x seconds the operator console pings the server for new chat requests/auto clean/update status.
+also effects fetching of new chat responses for both the visitor and the operator
+$VARS_JS_REQUESTING = 3 ;
+
+----- (seconds) - every x seconds while the visitor is viewing a page, the system pings the server to update visitor
+footprint status
+$VARS_JS_FOOTPRINT_CHECK = 25 ;
+
+----- (seconds) - every x seconds while the visitor is viewing a page, the system pings the server to process automatic
+and operator initiated chat status.  also effects fetching of real-time chat icon online/offline status
+$VARS_JS_INVITE_CHECK = 13 ;
+
+----- (cycle) - while the visitor is viewing a page, after max x cycles, all periodic ping to the server will be stopped
+to save on server resources.  most likely the browser is kept open and idle
+$VARS_JS_FOOTPRINT_MAX_CYCLE = 100 ;
+
+----- (seconds) - every x seconds, the operator console will ping the server to process latest chat transcript rating
+and to fetch the total/overall number of chats accepted
+$VARS_JS_RATING_FETCH = 25 ;
+
+----- (seconds) - inactive visitors greater then x seconds (did not send a ping response to the server) will be automatically
+cleared from the system for the most current real-time traffic monitor report
+$VARS_FOOTPRINT_U_EXPIRE = $VARS_JS_FOOTPRINT_CHECK * 2 ;
+
+----- (days) - inactive visitor ip data greater then x days will be cleared from the IP table.  the IP table stores the
+visitor's total chat requests/footprints/initiated chat/IP address/automatic chat invite values
+$VARS_IP_LOG_EXPIRE = 30 ;
+
+----- (days) - inactive visitor data greater then x days will be cleared from the footprint and refer URL tables
+$VARS_FOOTPRINT_STATS_EXPIRE = 15 ;
+
+----- (seconds) - operator console will wait x seconds while sending a ping to the server.  if x seconds is reached, the operator
+console will automatically disconnect and try to reconnect.  it's a measure of internet connectivity as well
+$VARS_JS_OP_CONSOLE_TIMEOUT = 35 ;
+
+----- (cycle mod) - ( n % x ) - every x'th cycle, the system will update the visitor's chat status to remain active status
+$VARS_CYCLE_VUPDATE = 10 ;
+
+----- (seconds) - if the last automatic cleaning was less then time()-x, the system attempt an automatic cleaning process
+$VARS_CYCLE_CLEAN = $VARS_JS_REQUESTING + 6 ;
+
+----- (seconds) - operators inactive for max x seconds will automatically be switched to offline status.
+(every $VARS_JS_REQUESTING seconds the operator status is refreshed to remain active status)
+$VARS_EXPIRED_OPS = $VARS_CYCLE_CLEAN * 10 ;
+
+----- (seconds) - chat sessions that are inactive for x seconds (receives ping request from the chat windows)
+will be automatically cleared (IMPORTANT: this value must be greater 300 because the chat routing duration can be 5 minutes per route)
+$VARS_EXPIRED_REQS = $VARS_CYCLE_VUPDATE * 33 ;
+
+----- (seconds) - operator to operator requests that has been inactive for x seconds will be automatically cleared
+$VARS_EXPIRED_OP2OP = $VARS_EXPIRED_REQS ;
+
+----- (days) - chat transcript visitor footprints data greater then x days will be automatically deleted to optimize performance
+$VARS_EXPIRED_TFOOT = 90 ;
+
+----- (seconds) - when chat is transferred to another operator, if the new operator does not pick up in x seconds, the
+chat is transferred back to the original operator
+$VARS_TRANSFER_BACK = 45 ;
+
+----- (seconds) - additional seconds added to the routing time if SMS alert is switched on to provide operators additional
+time to return to computer to accept the chat request
+$VARS_SMS_BUFFER = 120 ;
+
+----- (hours) - if the operator is online on a mobile device but has not opened the mobile app in x hours, log them out
+and set their status to offline
+$VARS_MOBILE_EXPIRED_OPS = 10 ;
+
+----- (seconds) - additional seconds added to the visitor chat session updated status for mobile devices for situations
+of carrier signal lag or visitor places browser in background for a short while checking website or other activity
+$VARS_MOBILE_CHAT_BUFFER = 300 ;
+
+----- (minutes) - after the visitor sends an offline email message, wait x minutes before the visitor can send another offline message
+$VARS_MAIL_SEND_BUFFER = 1 ;
+
+----- (number) - max number of active visitor embed chat sessions before the system recycles the session files.  keep in
+mind, x number of new chat response temp files are created per chat session
+$VARS_MAX_EMBED_SESSIONS = 3 ;
+
+----- (number) - max number of concurrent chat requests per ip.  when max is reached, the visitor will be routed to
+the leave a message screen until the matching ip chat request has ended or expired.
+NOTE: these chat requests will not be logged to the system
+$VARS_MAX_IP_CHAT_REQUESTS = 3 ;
+
+----- (pixel) - width of the popup chat window
+$VARS_CHAT_WIDTH = 600 ;
+
+----- (pixel) - height of the popup chat window
+$VARS_CHAT_HEIGHT = 540 ;
+
+----- (pixel) - width of the embed chat window
+(there is embed window shadow image behind the embed chat window that is static.  so this should not be modified)
+(shadow image - themes/initiate/widget_shadow.png)
+$VARS_CHAT_WIDTH_WIDGET = 420 ;
+
+----- (pixel) - height of the embed chat window
+(there is embed window shadow image behind the embed chat window that is static.  so this should not be modified)
+(shadow image - themes/initiate/widget_shadow.png)
+$VARS_CHAT_HEIGHT_WIDGET = 520 ;
+
+----- (defined/not defined) - process the mysql free results. (should be off for most systems, "on" only if mysql free result error displays on the pages)
+$VARS_MYSQL_FREE_RESULTS = 1 ;
+
+----- (1,0) - chat invite shadow image display/hide
+$VARS_CHAT_WIDGET_SHADOW = 1 ;
+
+----- (hash array) - DMARC domains workaround to send email (places sender information as the "From")
+$DMARC_DOMAINS = Array( "yahoo.com" => 1, "another_domain.com" => 1 )
+
+----- (bytes) - maximum size of a chat session data file to limit excessive data or possible flooding
+$VARS_MAX_CHAT_FILESIZE = 500000 ;
