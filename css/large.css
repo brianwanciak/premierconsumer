@@ -17,13 +17,11 @@
 #phplive_btn_1470770952{
 	position: fixed;
 	display: block;
-	bottom: -2px;
+	bottom: 5px;
 	right: 25px;
-	border: 5px solid #fff;
-	border-bottom: 0;
 }
 #phplive_btn_1470770952:hover{
-	bottom: 0px;
+	bottom: 8px;
 }
 
 

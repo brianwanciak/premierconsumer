@@ -99,6 +99,8 @@
   </script>
 <?php } ?>
 
+<span style="color: #0000FF; text-decoration: underline; cursor: pointer;" id="phplive_btn_1472695226" onclick="phplive_launch_chat_0(0)"></span>
+
 
 
 </body>

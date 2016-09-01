@@ -1,1 +1,0 @@
-<?php $template="contact"; include("page.php"); ?>
